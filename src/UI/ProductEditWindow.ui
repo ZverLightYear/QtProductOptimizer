@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ProductEditWindow</class>
+ <widget class="QDialog" name="ProductEditWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>169</width>
+    <height>102</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>169</width>
+    <height>102</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>169</width>
+    <height>102</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>ProductEditWindow</string>
+  </property>
+  <widget class="QLabel" name="lbProductHeight">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>54</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Height:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbProductWidth">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>54</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Width:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="tbProductHeight">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>10</y>
+     <width>111</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="tbProductWidth">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>40</y>
+     <width>111</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QDialogButtonBox" name="btbResult">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>70</y>
+     <width>161</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
