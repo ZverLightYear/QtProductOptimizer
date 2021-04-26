@@ -24,4 +24,4 @@ void BFDHSlicer::pushProduct(SliceResult &result, IMaterial *product, Level *lev
     level->coord.X += product->getWidth();
 }
 
-BFDHSlicer::~BFDHSlicer()
+BFDHSlicer::~BFDHSlicer() = default;
